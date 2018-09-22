@@ -12,7 +12,7 @@ git init    # initiate empty local repo
 echo " # inside master branch " >> main.cpp
 ```
 
-By default এটা আমাদের মুল ব্রাঞ্চ, এর নাম master. আমরা নতুন ব্রাঞ্চ তোইরই করব এভাবেঃ 
+By default এটা আমাদের মুল ব্রাঞ্চ, এর নাম master. আমরা নতুন ব্রাঞ্চ তৈরি করব এভাবেঃ 
 
 ```
 git checkout -b develop
@@ -28,7 +28,7 @@ git branch
 *develop
  master
 ```
-যে ব্রাঞ্চের সামনে * , আমরা সেই ব্রাঞ্চে অবস্থিত। ১ ব্রাঞ্চ থেকে অন্য়টায় যেতে হয় ঃ
+যে ব্রাঞ্চের সামনে * , আমরা সেই ব্রাঞ্চে অবস্থিত। ১ ব্রাঞ্চ থেকে অন্যটায় যেতে হয় ঃ
 ``` 
 git checkout <brunch-name>
 # such as
